@@ -4,9 +4,60 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Moser Cyber Space</title>
+	<style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:#272936; /* Dark background color */
+            padding: 10px 20px;
+        }
+
+        /* Website Title Styling */
+        .nav-title {
+            font-size: 1.5rem;
+            color:#53BDFF;
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* Navigation Links Styling */
+        .nav-tabs {
+            list-style: none; /* Remove default list styling */
+            display: flex; /* Align items in a row */
+            gap: 15px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .nav-tabs a {
+            color: #fff; /* White text for links */
+            text-decoration: none; /* Remove underline */
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        /* Hover Effect for Links */
+        .nav-tabs a:hover {
+            color: #1e90ff; /* Light blue on hover */
+        }
+    </style>
 </head>
 <body style="color:white;background-color:#1E1F22;">
-	<h1 style="color:#53BDFF">Moser Cyber Space</h1>
+	<nav>
+		<a href="index.html" class="nav-title"><h1>Moser Cyber Space</h1></a>
+        <div class="nav-tabs">
+		<a href="blogs.html" class="nav-tabs"><h1 style="color:#53BDFF">Blogs</h1></a>
+		<a href="projects.html" class="nav-tabs"><h1 style="color:#53BDFF">Projects</h1></a>
+		<a href="https://github.com/Mgmoser" class="nav-tabs"><h1 style="color:#53BDFF">GitHub</h1></a>
+        </div>
+	</nav>
 	<hr></hr>
 	<h2 style="color:#53BDFF">Who am I?</h2>
 	<p>I am a Cyber Security Analyst with over 3 years experience. I have special interests in Social Engineering, OSINT, Blue Teaming, Red Teaming, and programming. Languages I am familiar are Python, PowerShell, HTML, CSS, and C#.</p>
