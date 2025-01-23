@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Moser Cyber Space</title>
-	<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moser Cyber Space</title>
+    <style>
         /* Basic Reset */
         * {
             margin: 0;
@@ -12,56 +12,81 @@
             box-sizing: border-box;
         }
 
+        /* Global Styling */
+        body {
+            color: white;
+            background-color: #1E1F22;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+
         /* Navigation Bar Styling */
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color:#272936; /* Dark background color */
-            padding: 10px 20px;
+            background-color: #272936; /* Dark background color */
+            padding-top: 15px; /* More padding for better spacing */
+            padding-bottom: 15px; /* More padding for better spacing */
+            padding-right: 20px; /* More padding for better spacing */
+            padding-left: 60px; /* More padding for better spacing */
+            margin-bottom: 20px;
         }
 
         /* Website Title Styling */
         .nav-title {
-            font-size: 1.5rem;
-            color:#53BDFF;
+            font-size: 1.8rem;
+            color: #53BDFF;
             text-decoration: none; /* Remove underline */
+            font-weight: bold;
         }
 
         /* Navigation Links Styling */
         .nav-tabs {
-            list-style: none; /* Remove default list styling */
-            display: flex; /* Align items in a row */
-            gap: 15px; /* Space between links */
-            text-decoration: none; /* Remove underline */
+            display: flex;
+            gap: 20px; /* Space between links */
         }
 
         .nav-tabs a {
-            color: #fff; /* White text for links */
+            color: #53BDFF; /* Light blue text for links */
             text-decoration: none; /* Remove underline */
-            font-size: 1rem;
+            font-size: 1.2rem; /* Slightly larger font */
+            font-weight: bold;
             transition: color 0.3s;
         }
 
         /* Hover Effect for Links */
         .nav-tabs a:hover {
-            color: #1e90ff; /* Light blue on hover */
+            color: #1e90ff; /* Brighter blue on hover */
         }
+
+        /* Content Styling */
+        h1 {
+            font-size: 2rem;
+            color: #53BDFF;
+        }
+
+        p {
+            font-size: 1rem;
+            padding: 15px 30px; /* Space around the heading */
+        }
+        
     </style>
 </head>
-<body style="color:white;background-color:#1E1F22;">
-	<nav>
-		<a href="index.html" class="nav-title"><h1>Moser Cyber Space</h1></a>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html" class="nav-title">Moser Cyber Space</a>
         <div class="nav-tabs">
-		<a href="blogs.html" class="nav-tabs"><h1 style="color:#53BDFF">Blogs</h1></a>
-		<a href="projects.html" class="nav-tabs"><h1 style="color:#53BDFF">Projects</h1></a>
-		<a href="https://github.com/Mgmoser" class="nav-tabs"><h1 style="color:#53BDFF">GitHub</h1></a>
+            <a href="about.html">About</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="projects.html">Projects</a>
+            <a href="https://github.com/Mgmoser">GitHub</a>
         </div>
-	</nav>
-	<hr></hr>
+    </nav>
 	<h2 style="color:#53BDFF">Who am I?</h2>
 	<p>I am a Cyber Security Analyst with over 3 years experience. I have special interests in Social Engineering, OSINT, Blue Teaming, Red Teaming, and programming. Languages I am familiar are Python, PowerShell, HTML, CSS, and C#.</p>
-	<hr></hr>
 	<dl style="Text-align:center;">
 		<dt><h2>HTML Websites</h3></dt>
   		<dd>I wrote all the HTML for this website. Although CSS, templates and services can make it easier to create a website fast, it is handy to understand basic HTML.</dd>
